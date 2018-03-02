@@ -1,0 +1,41 @@
+{
+"application": {
+	"forge": [
+		"node1",
+		"node2",
+		"node3"
+	],
+	"anubis": [
+		"node4"
+	]
+},
+"version": {
+	"10.0": [
+		"node1",
+		"node2"
+	],
+	"9.5": [
+		"node3"
+	]
+},
+"role": {
+	"app-server": [
+		"node1"
+	],
+	"util": [
+		"node2"
+	],
+	"db": [
+		"node3"
+	],
+"worker": [
+	"node4"
+	]
+},
+"location": {
+	"slice": [
+		"node2",
+		"node4"
+	]
+	}
+}
