@@ -17,7 +17,7 @@ def json_writer(jsonData):
     pythonDictionary = {}
 
     #iterate through every node in json file, adding to pythonDictionary where top level keys are the keys present in the results,
-    #the value of each is a dictionary mapping the different values present to the results to an array of nodes with those values.
+    #mapped to their attributes
 
     for key in jsontoPython:
         node_dictionary = jsontoPython[key]
